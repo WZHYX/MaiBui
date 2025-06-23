@@ -28,7 +28,7 @@ const Navigate = () => {
    * String containing url of Google Maps API request.
    */
   const url = "https://www.google.com/maps/embed/v1/directions"
-                + "?key=AIzaSyAJ1JqQHpz1BUe9HcakxwV8AhvQBR703ks"  //Remove "-" to enable map
+                + "?key=key"  //Remove "-" to enable map
                 + "&origin=" + String(location.latitude) + ","
                 + String(location.longitude)
                 + "&destination=place_id:" + place_id.id
